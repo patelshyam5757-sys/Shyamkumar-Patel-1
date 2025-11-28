@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact & Online Booking | 100SMILES Dental Care</title>
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+
+<!-- ===================== HEADER ===================== -->
+
+<header class="site-header">
+    <div class="site-header-inner">
+        <div class="brand">
+            <img src="images/AdobeStock_298640195.png" alt="100SMILES logo">
+            <div class="brand-text">
+                <span>100SMILES Dental Care</span>
+                <span class="brand-tagline">We’re here to help you smile.</span>
+            </div>
+        </div>
+        <div class="header-contact">
+            <a href="tel:0750005599">Call: (07) 5000 5599</a>
+            <small>admin@100smilesdentalcare.com.au</small>
+        </div>
+    </div>
+</header>
+
+<!-- ===================== NAV ===================== -->
+
+<nav class="main-nav">
+    <div class="main-nav-inner">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About &amp; Our Team</a></li>
+            <li><a href="services.html">Services &amp; Technology</a></li>
+            <li><a href="article.html">Dental Health Articles</a></li>
+            <li><a href="contact.html" class="active">Contact &amp; Booking</a></li>
+        </ul>
+    </div>
+</nav>
+
+<!-- ===================== HERO SECTION ===================== -->
+
+<section class="contact-hero">
+    <img src="images/AdobeStock_311198389.jpeg" alt="Dental clinic interior" class="contact-hero-img">
+    <div class="contact-hero-overlay">
+        <h1>Get in Touch</h1>
+        <p>Your comfort and care is our priority.</p>
+    </div>
+</section>
+
+<!-- ===================== CONTENT ===================== -->
+
+<main class="wrapper">
+
+    <div class="contact-grid">
+
+        <!-- Contact Information -->
+        <div class="contact-info">
+            <h2>Contact Details</h2>
+            <p><strong>Phone:</strong> (07) 5000 5599</p>
+            <p><strong>Email:</strong> admin@100smilesdentalcare.com.au</p>
+            <p><strong>Address:</strong><br>33 Fantail Street, Razole, QLD</p>
+
+            <h3>Trading Hours</h3>
+            <table class="hours-table">
+                <tr><th>Day</th><th>Hours</th></tr>
+                <tr><td>Mon–Fri</td><td>8:30 am – 6:30 pm</td></tr>
+                <tr><td>Sat–Sun</td><td>8:30 am – 1:00 pm</td></tr>
+            </table>
+
+            <h3>Special Offers</h3>
+            <ul class="offers-list">
+                <li>✔ Free Dental Checkup Day – Sat 5 July</li>
+                <li>✔ 10% Annual Check-Up Discount</li>
+                <li>✔ 25% Online Booking Discount</li>
+            </ul>
+        </div>
+
+        <!-- Booking Form -->
+        <div class="form-card">
+            <h2>Book an Appointment</h2>
+            <p class="text-muted">Fill in the form and our team will confirm your booking.</p>
+
+            <form action="#" method="post">
+
+                <div class="form-row">
+                    <div class="form-field">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-field">
+                        <label for="phone">Phone</label>
+                        <input type="tel" id="phone" name="phone" required>
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-field">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-field">
+                        <label for="type">Patient Type</label>
+                        <select id="type" name="type">
+                            <option>Adult</option>
+                            <option>Child</option>
+                            <option>Family</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-field">
+                        <label for="date">Preferred Date</label>
+                        <input type="date" id="date" name="date">
+                    </div>
+                    <div class="form-field">
+                        <label for="time">Preferred Time</label>
+                        <input type="time" id="time" name="time">
+                    </div>
+                </div>
+
+                <div class="form-field">
+                    <label for="reason">Reason for Visit</label>
+                    <textarea id="reason" name="reason"></textarea>
+                </div>
+
+                <button class="button button-primary" type="submit">Submit Booking Request</button>
+
+            </form>
+        </div>
+
+    </div>
+
+</main>
+
+<!-- ===================== FOOTER ===================== -->
+
+<footer class="site-footer">
+    <div class="site-footer-inner">
+        <div>
+            <strong>100SMILES Dental Care</strong><br>
+            33 Fantail Street, Razole, Queensland
+        </div>
+        <div>
+            <strong>Need Help?</strong><br>
+            admin@100smilesdentalcare.com.au
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
